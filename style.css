@@ -1,0 +1,708 @@
+
+
+/* Fonts */
+@font-face {
+    font-family: "mixtape-regular-aaa";
+    src: url("assets/fonts/mixtape-regular-aaa.woff") format("woff");
+
+  }
+
+@font-face {
+    font-family: "SimplerPro_V3-Bold";
+    src: url("assets/fonts/SimplerPro_V3-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SimplerPro_V3-Regular";
+    src: url("assets/fonts/SimplerPro_V3-Regular.otf") format("opentype");
+}
+
+  
+form{
+    text-align: -webkit-right !important;
+}
+
+form h4{
+    font-family: 'mixtape-regular-aaa', Courier, monospace;
+  
+}
+
+form .info label:nth-child(2){
+    font-family: "SimplerPro_V3-Bold", Courier, monospace;
+}
+
+form .info label:nth-child(1){
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .info label a{
+    color: #dc373f;
+}
+
+input{
+    border: 1.6px solid #c0c2bf !important;
+}
+
+input:focus{
+    border-color: black !important;
+    outline: none !important;
+    box-shadow: none !important;
+    
+}
+
+
+/* Placeholder  */
+
+.form-group{
+    position: relative; 
+}
+
+.palceholder{
+    position: relative;
+    top: 2px;
+    right: 8px;
+    color:black;
+
+    height: 0px;
+    width: fit-content;
+
+    display: none;
+    
+}
+
+.palceholder label{
+    cursor: text;
+    font-size: 14px;
+}
+
+.star{
+    color: #ff2b4f;
+    margin-left: -3px;
+}
+
+
+.pass{
+    display: flex;
+    justify-content: space-between;
+}
+
+.house{
+    display: flex;
+    justify-content: space-between;
+}
+
+.house2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+  
+form .pass-container .password{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .pass-container .confirm{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+  
+
+
+
+form .signIn-label{
+    float: left;
+
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+form .form-check-input{
+    float: right !important;
+    margin-top: 3.5px;
+
+}
+
+form .form-check-label{
+    margin-right: 30px;
+
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+    font-size: 15px;
+
+}
+
+
+
+/* Checkbox */ 
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+
+.form-check-input:checked[type=checkbox] {
+    background-image: url("checked.svg");
+    background-size: 12px;
+    background-color: white;
+
+    border-color: black !important;
+
+}
+
+
+
+form .address-title{
+    font-family: "SimplerPro_V3-Bold", Courier, monospace;
+}
+
+
+form .names .name-container .lastname-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .names .name-container .name-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .house .address-container .street-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .house .address-container .house-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .house2 .address2-container .inter-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .house2 .address2-container .apt-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .house2 .address2-container .city-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+form .phone .phone-container .phone-placeholder{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+}
+
+
+.pass-container .palceholder{
+    position: absolute;
+}
+
+.name-container .palceholder{
+    position: absolute;
+}
+
+.address-container .palceholder{
+    position: absolute;
+}
+
+.address2-container .palceholder{
+    position: absolute;
+}
+
+.phone-container .palceholder{
+    position: absolute;
+}
+
+
+.pass-container{
+    display: flex;
+    justify-content: space-between;
+
+    width: 49%;
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+
+    width: 49%;
+}
+
+.address-container{
+    display: flex;
+    justify-content: space-between;
+
+    width: 49%;
+}
+
+.address2-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.phone-container{
+    display: flex;
+    justify-content: space-between;
+
+    width: 49%;
+}
+
+.address2-container:last-child{
+    width: 49%;
+}
+
+.address2-container:nth-child(2){
+    width: 24.5%;
+}
+
+.address2-container:nth-child(1){
+    width: 22.5%;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.address{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+
+
+.address3{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-left: auto;
+
+}
+
+.address2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* input type number hide arrows  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.action-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.action-container a{
+    color: #ff2b4f;
+    text-decoration: none;
+
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+    font-size: 14px;
+}
+
+.action-container .btn-primary{
+    border-color: transparent; 
+    background-color: #d73037;
+}
+
+.action-container button{
+    font-family: "SimplerPro_V3-Regular", Courier, monospace;
+    font-size: 14px;
+    box-shadow: none;
+    border-radius: 20px;
+    width: 200px;
+    padding: 8px;
+
+}
+
+.action-container button:hover{
+    background-color: #b9131b;
+}
+
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+/* Modal */
+.modal{
+    background-color: #7d7f7e !important;
+}
+
+.modal .modal-dialog{
+    margin-top: 80px;
+}
+
+.modal .modal-content{
+    border: none;
+}
+
+.modal .modal-header{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 0 none;
+}
+
+.modal .modal-header .close{
+    position: absolute;
+    z-index: 1;
+    right: -1px;
+    top: -1px;
+
+    padding: 0px;
+
+    text-shadow: none;
+    font-weight: unset;
+    font-size: 40px;
+    opacity: 1;
+
+    background-color: white;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+
+
+    filter: drop-shadow(1px -4px 10px grey);
+
+    background-image: url('close.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+}
+
+
+.modal .modal-header .close:focus{
+    outline: none !important;
+    border: none !important;
+}
+
+
+.modal .modal-header .modal-title{
+    margin-top: 5px;
+    font-family: 'mixtape-regular-aaa', Courier, monospace;
+    font-size: 50px;
+}
+
+.modal .modal-body{
+    padding: 0;
+ 
+}
+
+.modal .modal-body form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+    margin-bottom: 50px !important;
+}
+
+.modal .modal-body form .form-group{
+    width: 100%;
+    
+}
+
+.modal .modal-body form .form-group input{
+    text-align: -webkit-right !important;
+}
+
+.modal .modal-body form .action-container{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.modal .modal-body form .action-container a{
+    align-self: flex-end;
+    text-decoration: underline;
+    color: black !important;
+}
+
+.modal .modal-body form .action-container button{
+    width: 100%;
+
+}
+
+
+/* Failed Login  */
+.error{
+	background-color: #feeaea;
+    border: 1px solid #fadadb;
+	margin-bottom: 10px;
+    border-radius: 3px;
+    
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+
+    padding: 10px;
+}
+.error span{
+	padding: 10px 10px 10px 35px;
+	margin: 0;
+    border-radius: 3px;
+    background: url('error.png') 10px 50% no-repeat;
+    
+    font-family: "SimplerPro_V3-Bold", Courier;
+}
+
+.error p{
+    margin: 0;
+}
+
+
+/* Form Loading   */
+#status{
+    display: flex;
+    position: absolute;
+    margin-left: 210px;
+}
+
+.fa-spinner{
+    font-size: 40px;
+    color:#ff2b4f;
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 700px){
+
+    form{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+
+    form .form-check-input{
+        margin-top: 3.5px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .modal .modal-dialog{
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width: 520px){
+
+    form{
+        width: 90%;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    form{
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-check{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+
+        margin-top: -3.5px;
+    }
+
+    form .signIn-label{
+        float: inherit;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pass{
+        flex-direction: column-reverse;
+    }
+
+    .names{
+        flex-direction: column-reverse;
+    }
+
+    .house{
+        flex-direction: column-reverse;
+    }
+
+    .house2{
+        flex-direction: column-reverse;
+    }
+
+
+    .pass-container{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 10.5%;
+
+        width: 100%;
+    }
+
+    .pass-container input{
+        width: 100%;
+    }
+
+    .form-check{
+        justify-content: end;
+    }
+
+
+    .name-container{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 10.5%;
+
+        width: 100%;
+    }
+
+    .address-container{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 10.5%;
+
+        width: 100%;
+    }
+
+    .address2-container{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 10.5%;
+
+        width: 100%;
+    }
+
+    .phone-container{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 10.5%;
+
+        width: 100%;
+    }
+
+    .address2-container:last-child{
+        width: 100%;
+    }
+
+    .address2-container:nth-child(2){
+        width: 100%;
+    }
+
+    .address2-container:nth-child(1){
+        width: 100%;
+    }
+
+
+    .name-container input{
+        width: 100%;
+    }
+
+    .address-container input{
+        width: 100%;
+    }
+
+    .address2-container input{
+        width: 100%;
+    }
+
+    .phone-container input{
+        width: 100%;
+    }
+
+    .address{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 10.5%;
+    }
+
+    .address input{
+        width: 100%;
+    }
+
+    .address2{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 16.5%;
+        
+    } 
+
+    .address2 input{
+        width: 100% !important;
+    } 
+
+    .address3 input{
+        width: 100%;
+        
+    }
+
+    
+    .action-container{
+        flex-direction: column;
+        align-items: center;
+        height: 10%;
+    }
+
+    .palceholder{
+        margin-left: auto;
+    }
+
+    form .form-check-input{
+        margin-top: 3.5px;
+    }
+
+    #status{
+        margin-left: 260px !important;
+    }
+
+    
+  }
+
+
+  @media only screen and (max-width: 230px){
+
+    .action-container button{
+        width: auto;
+    }
+  }
